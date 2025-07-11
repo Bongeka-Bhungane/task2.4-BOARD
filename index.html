@@ -7,20 +7,61 @@
 <body>
     <div class="container">
         <div class="component cpu"><a href="#cpu-info" class="popup">CPU</a></div>
-        <div class="component ram">RAM</div>
-        <div class="component rom">ROM</div>
-        <div class="component cmos">CMOS</div>
-        <div class="component psu">PSU</div>
-        <div class="component hdd">HDD</div>
+        <div class="component ram"><a href="#ram-info" class="popup">RAM</a></div>
+        <div class="component rom"><a href="#rom-info" class="popup">ROM</a></div>
+        <div class="component cmos"><a href="#cmos-info" class="popup">CMOS</a></div>
+        <div class="component psu"><a href="#psu-info" class="popup">PSU</a></div>
+        <div class="component hdd"><a href="#hdd-info" class="popup">HDD</div>
     </div>
 
     
     <div id="cpu-info" class="pop-up">
         <div class="popup-content">
             <a href="#cpu" class="close">&times;</a>
-            <img src="media/cpu.jpg" alt="CPU Image">
+            <img src="media/CPU.jpg" alt="CPU Image">
             <p>CPU (Central Processing Unit) is the core component responsible for processing data in a computer. It performs all the essential tasks such as data manipulation, calculations, and formatting information for output. As a result, when purchasing a computer, people often pay close attention to the CPU and its performance capabilities.</p>
             <P>The CPU executes instructions at an incredibly fast rate. This speed is measured in clock cycles and is commonly expressed in megahertz (MHz). The term clock speed refers to how many millions of cycles per second the CPU can perform—for example, 2000 MHz means two billion cycles per second. You can think of the CPU’s operation like a heartbeat; this rhythmic pulsing is what drives the execution of tasks within the computer system.</P>
+        </div>
+    </div>
+    <div id="ram-info" class="pop-up">
+        <div class="popup-content">
+            <a href="#ram" class="close">&times;</a>
+            <img src="media/RAM.webp" alt="RAM Image">
+            <P>RAM (Random Access Memory) is a type of temporary memory used by computers to store data that is actively being used or processed. Although some refer to it as “Ready Access Memory,” the correct term is Random Access Memory. RAM acts like a temporary notepad, holding information that the computer needs to access quickly while performing tasks. It also stores instructions from input devices before githey are processed or saved permanently.</P>
+            <P>The term random access means that the computer can access any memory location in RAM directly and in any order, unlike older storage methods such as cassette tapes, where data had to be accessed sequentially.</P>
+        </div>
+    </div>
+     <div id="psu-info" class="pop-up">
+        <div class="popup-content">
+            <a href="#psu" class="close">&times;</a>
+            <img src="media/power-unit.webp" alt="PSU Image">
+            <p>Power Unit (Power Supply Unit - PSU) is a vital component of a computer that converts electrical power from an outlet into usable energy for the system. It supplies power to all internal components, including the motherboard, CPU, hard drives, and fans. The PSU typically converts AC (Alternating Current) from the wall into DC (Direct Current), which computers require to operate.</p>
+            <p>It connects to the system through a 20-pin or 24-pin connector and ensures a stable flow of electricity. Without the power unit, the computer cannot start or function.</p>
+        </div>
+    </div>
+     <div id="rom-info" class="pop-up">
+        <div class="popup-content">
+            <a href="#rom" class="close">&times;</a>
+            <img src="media/ROM.jpg" alt="ROM Image">
+            <p>ROM (Read-Only Memory) is a type of memory used to store essential data that controls the most basic functions of a computer. This includes tasks like starting up the system, detecting hardware (peripherals), and managing components such as the computer fan.</p>
+            <p>As the name implies, the data in ROM cannot be modified by users or the system—it is read-only. Unlike RAM, which loses its data when the computer is turned off, ROM retains its contents permanently. This makes ROM a form of non-volatile memory, similar to hard drives and flash drives. In contrast, RAM is volatile memory, meaning its contents are erased when the computer is powered down.</p>        
+        </div>
+    </div>
+     <div id="cmos-info" class="pop-up">
+        <div class="popup-content">
+            <a href="#cmos" class="close">&times;</a>
+            <img src="media/CMOS.webp" alt="CMOS Image">
+            <p>CMOS (Complementary Metal-Oxide-Semiconductor) is a small memory chip found on a computes motherboard. It stores important system information such as the date and time, and hardware settings like boot sequence and system configuration.</p>
+            <p>CMOS works together with the BIOS (Basic Input/Output System) to help the computer start up properly. It is powered by a small battery (called the CMOS battery) so that it can retain its information even when the computer is turned off.</p>
+            <p>If the CMOS battery fails, the system may forget its settings, and the date and time may reset each time the computer is restarted.</p>
+        </div>
+    </div>
+     <div id="hdd-info" class="pop-up">
+        <div class="popup-content">
+            <a href="#hdd" class="close">&times;</a>
+            <img src="media/storage-unit.jpg" alt="HDD Image">
+            <p>HDD (Hard Disk Drive) is the main storage device of a computer, similar to an audio CD you might have at home—but with one key difference: your computer can both read data from it and write data to it. This means the computer can retrieve information from the HDD to process it in the CPU or temporarily store it in RAM. After processing, the computer can save the results back to the HDD, a process known as writing to disk.</p>
+            <p>Inside an HDD, you would find something like a stack of pancakes—multiple double-sided, circular disks (called platters) that spin while a read/write head accesses or records data on them.</p>
         </div>
     </div>
 </body> 

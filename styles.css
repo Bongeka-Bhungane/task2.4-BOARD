@@ -25,6 +25,7 @@ body {
     left: 120px;
     width: 180px;
     height: 120px;
+    background-image: url(media/CPU.jpg);
 }
 .ram {
     top: 40px;
@@ -35,8 +36,8 @@ body {
 .rom {
     top: 100px;
     left: 600px;
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 150px;
 }
 .cmos {
     top: 300px;
