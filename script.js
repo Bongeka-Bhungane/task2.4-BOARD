@@ -1,9 +1,7 @@
-function mDown(obj) {
-    obj.style.backgroundColor = "1ec5e5";
-    obj.innerHTML = "Release Me"
-}
 
-function mUp(obj) {
-    obj.style.backgroundColor="D94A38"
-    obj.innerHTML="BIOS"
+function showPage(id) {
+    document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+    });
+    document.getElementById(id).classList.add('active');
 }
