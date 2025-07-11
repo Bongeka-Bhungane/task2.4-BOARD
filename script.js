@@ -5,5 +5,5 @@ function mDown(obj) {
 
 function mUp(obj) {
     obj.style.backgroundColor="D94A38"
-    obj.innerHTML="Thank You"
+    obj.innerHTML="BIOS"
 }
