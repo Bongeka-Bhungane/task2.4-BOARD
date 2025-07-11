@@ -64,4 +64,40 @@
             <p>Inside an HDD, you would find something like a stack of pancakes—multiple double-sided, circular disks (called platters) that spin while a read/write head accesses or records data on them.</p>
         </div>
     </div>
+    
+    <section class="bios">
+        <div class="section">
+            <label class="label">boot order</label>
+            <div class="dropdown">
+                1st boot device: hard drive<br>
+                2nd boot device: usb drive<br>
+                3rd boot device: cd-rom
+            </div>
+        </div>
+
+        <div class="section">
+            <label class="label">security</label>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="section">
+            <label class="label">cmos clock</label>
+            <div class="clock" id="cmos-clock">25/07/10 11:55</div>
+        </div>
+
+        <div class="section">
+            <label class="label">bios version</label>
+            <div>american megatrends v2.61</div>
+        </div>
+
+        <div class="bottom-message">
+            press <strong>f10</strong> to save and exit
+        </div>
+    </section>
+
+    <div  class="btn" onmousedown="mDown(tis)" onmouseup="mUp(this)">motherboard</div>
+    <script src="script.js"></script>
 </body> 
