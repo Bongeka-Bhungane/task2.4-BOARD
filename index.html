@@ -42,7 +42,7 @@
      <div id="rom-info" class="pop-up">
         <div class="popup-content">
             <a href="#rom" class="close">&times;</a>
-            <img src="media/ROM.jpg" alt="ROM Image">
+            <img src="media/ROM_chip.jpg" alt="ROM Image">
             <p>ROM (Read-Only Memory) is a type of memory used to store essential data that controls the most basic functions of a computer. This includes tasks like starting up the system, detecting hardware (peripherals), and managing components such as the computer fan.</p>
             <p>As the name implies, the data in ROM cannot be modified by users or the system—it is read-only. Unlike RAM, which loses its data when the computer is turned off, ROM retains its contents permanently. This makes ROM a form of non-volatile memory, similar to hard drives and flash drives. In contrast, RAM is volatile memory, meaning its contents are erased when the computer is powered down.</p>        
         </div>
@@ -64,41 +64,9 @@
             <p>Inside an HDD, you would find something like a stack of pancakes—multiple double-sided, circular disks (called platters) that spin while a read/write head accesses or records data on them.</p>
         </div>
     </div>
-    <a href="#motherboard" class="btn" onclick="showPage('bios')">Go to BIOS</a>
-    </div>
+
+    <a href="bios.html">
+<button>Go TO BIOS</button>
+    </a>
     
-    <div id="bios" class="page">
-        <div class="section">
-            <label class="label">Boot Order</label>
-            <div class="dropdown">
-                1st Boot Device: Hard Drive<br>
-                2nd Boot Device: USB Drive <br>
-                3rd Boot Device: CD-ROM
-            </div>
-        </div>
-
-        <div class="section">
-            <label class="label">Security</label>
-            <label class="switch">
-                <input type="checkbox" checked>
-                <span class="slider round"></span>
-            </label>
-        </div>
-
-        <div class="section">
-            <label class="label">CMOS Clock</label>
-            <div class="clock" id="cmos-clock">25/07/10 14:35</div>
-        </div>
-
-        <div class="section">
-            <label class="label">BIOS Version</label>
-            <div>American Megatrends v2.61</div>
-        </div>
-
-        <div class="bottom-message">
-            Press <strong>F1O</strong> to Save and Exit
-        </div>
-        <a href="#bios" class="btn" onclick="showPage('motherboard')">Baxk to Motherboard</a>
-    </div>
-    <script src="script.js"></script>
 </body> 
